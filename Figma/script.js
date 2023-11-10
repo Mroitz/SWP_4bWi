@@ -24,6 +24,30 @@ const fillTable = (data) => {
     });
 
     document.getElementById("points").innerHTML = points;
+
+    let won = "";
+
+    data.forEach(element => {
+        won += "<div>" + element.won + "</div>";
+    });
+
+    document.getElementById("won").innerHTML = won;
+
+    let lost = "";
+
+    data.forEach(element => {
+        lost += "<div>" + element.lost + "</div>";
+    });
+
+    document.getElementById("lost").innerHTML = lost;
+
+    let draw = "";
+
+    data.forEach(element => {
+        draw += "<div>" + element.draw + "</div>";
+    });
+
+    document.getElementById("draw").innerHTML = draw;
 }
 
 
