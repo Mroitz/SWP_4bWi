@@ -1,5 +1,5 @@
 const loadData = () => {
-    fetch("https://api.openligadb.de/getbltable/bl1/2022").then((result) => {
+    fetch("https://api.openligadb.de/getbltable/bl1/2023").then((result) => {
         result.json().then((data) => {
             console - console.log(data);
             fillTable(data);
@@ -12,7 +12,7 @@ const fillTable = (data) => {
     let clubs = "";
 
     data.forEach(element => {
-        clubs += "<div>" + element.teamName + "</div>";
+        clubs += "<div class='clubs'>" + element.teamName + "</div>";
     });
 
     document.getElementById("clubs").innerHTML = clubs;
