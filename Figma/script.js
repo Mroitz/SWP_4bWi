@@ -7,14 +7,16 @@ const loadData = () => {
     })
 }
 
+
 const fillTable = (data) => {
     document.getElementById("clubs").innerHTML = data;
     let clubs = "";
-
+    
     data.forEach(element => {
-        clubs += "<div class='clubs'>" + element.teamName + "</div>";
+        clubs += "<div class='clubs'><img class='clubsimg' src='" + element.teamIconUrl + "' alt='" + "'>" + element.teamName + "</div>";
     });
 
+ 
     document.getElementById("clubs").innerHTML = clubs;
 
     let points = "";
