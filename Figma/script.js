@@ -15,7 +15,6 @@ const fillTable = (data) => {
     data.forEach(element => {
         clubs += "<div class='clubs'><img class='clubsimg' src='" + element.teamIconUrl + "' alt='" + "'>" + element.teamName + "</div>";
     });
-
  
     document.getElementById("clubs").innerHTML = clubs;
 
