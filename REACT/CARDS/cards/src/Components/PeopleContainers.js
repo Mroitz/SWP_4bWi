@@ -19,7 +19,6 @@ export default function PeopleContainer() {
             <div className="w-81 grid grid-cols-2 lg:grid-cols-4 gap-10">
                 {people.map(person => {
                     return <Card name={person.name} title={person.jobtitle} imageUrl={person.avatar}></Card>
-
                 })}
             </div>
         </div>
