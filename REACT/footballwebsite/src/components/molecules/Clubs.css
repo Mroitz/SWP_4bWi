@@ -1,0 +1,29 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clubswrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #D9D9D9;
+    box-shadow: 0 1px 2px 0 rgba(215, 215, 215, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clubcard {
+    height: 120px;
+    width: 300px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    font-family: koulen;
+    box-shadow: 0 1px 2px 0 rgba(215, 215, 215, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clubsimg {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
