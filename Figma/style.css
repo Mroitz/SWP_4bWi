@@ -26,7 +26,7 @@ body {
     right: 0px;
 }
 
-.clubspage{
+.clubspage {
     color: white;
     text-decoration: none;
 }
@@ -124,7 +124,7 @@ body {
     display: grid;
     padding-left: 55px;
     padding-bottom: 10px;
-    grid-template-columns: repeat(9,1fr);
+    grid-template-columns: repeat(9, 1fr);
 }
 
 .clubs {
