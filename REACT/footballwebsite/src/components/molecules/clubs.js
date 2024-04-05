@@ -15,7 +15,8 @@ export default function Clubs() {
     }, []);
 
     return (
-        <div className="">
+        <div className='clubsite'>
+            <div className='header'>Clubs</div>
             <div className='clubswrapper'>
                 {clubs.map((club) => (
 

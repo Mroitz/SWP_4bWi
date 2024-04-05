@@ -3,7 +3,7 @@ import "C:/Schule/4bwi/SWP/Visual Studio/REACT/footballwebsite/src/components/mo
 
 export default function ClubCard({ club, image }) {
     return (
-        <div class="">
+        <div>
             <div class="clubcard"><img class="clubsimg" src={image} alt="Team Logo" /> {club}</div>
         </div>
     );
