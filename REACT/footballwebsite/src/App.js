@@ -6,7 +6,8 @@ import {
   RouterProvider,
   Route,
   Link,
-} from "react-router-dom";
+}
+  from "react-router-dom";
 import "./index.css"
 
 const router = createBrowserRouter([

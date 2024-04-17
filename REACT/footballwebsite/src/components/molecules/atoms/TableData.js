@@ -1,6 +1,6 @@
 import React from 'react'
-import "C:/Schule/4bwi/SWP/Visual Studio/REACT/footballwebsite/src/index.css"
-import "C:/Schule/4bwi/SWP/Visual Studio/REACT/footballwebsite/src/components/molecules/Table.css"
+import "../../../index.css"
+import "../Table.css"
 
 
 export default function TableData({ image, clubs, points, won, lost, draw }) {

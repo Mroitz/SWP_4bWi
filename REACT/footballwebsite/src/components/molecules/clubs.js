@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import "C:/Schule/4bwi/SWP/Visual Studio/REACT/footballwebsite/src/index.css";
+import "../../index.css";
 import ClubCard from './atoms/ClubCard';
-import "C:/Schule/4bwi/SWP/Visual Studio/REACT/footballwebsite/src/components/molecules/Clubs.css"
+import "./Clubs.css"
 
 export default function Clubs() {
     const [clubs, setClubs] = useState([]);

@@ -1,5 +1,5 @@
 import React from 'react'
-import "C:/Schule/4bwi/SWP/Visual Studio/REACT/footballwebsite/src/components/molecules/Clubs.css"
+import "../Clubs.css"
 
 export default function ClubCard({ club, image }) {
     return (

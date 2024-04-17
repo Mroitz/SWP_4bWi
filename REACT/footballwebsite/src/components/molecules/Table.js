@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import "C:/Schule/4bwi/SWP/Visual Studio/REACT/footballwebsite/src/index.css"
+import "../../index.css"
 import TableHeader from './atoms/TableHeader.js'
 import TableData from "./atoms/TableData.js"
 
