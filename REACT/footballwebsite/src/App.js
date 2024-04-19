@@ -1,13 +1,8 @@
 import Table from "./components/molecules/Table";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Header from "./components/molecules/Header";
 import Clubs from "./components/molecules/clubs";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-}
-  from "react-router-dom";
+
 import "./index.css"
 
 const router = createBrowserRouter([
@@ -15,6 +10,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <div>
+        <Header prop="Club" />
         <Table />
       </div>
     ),
@@ -23,6 +19,7 @@ const router = createBrowserRouter([
     path: "/clubs",
     element: (
       <div>
+        <Header prop="Tabelle" />
         <Clubs />
       </div>
     ),
@@ -32,10 +29,8 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div>
-      <Header />
       <RouterProvider router={router} />
     </div>
-
   );
 }
 

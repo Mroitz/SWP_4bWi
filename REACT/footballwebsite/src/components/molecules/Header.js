@@ -1,21 +1,17 @@
 import React from 'react'
 import "./Header.css"
-import HeaderButton from './atoms/HeaderButton'
+import { Link } from 'react-router-dom'
 
-export default function Header() {
+export default function Header({ prop }) {
     return (
         <div class="Logo">
             <div class="Bundesliga">Bundesliga</div>
             <div class="Options">
-
+                hallo
+                <Link to="/clubs">{prop}</Link>
+                <Link to="/Table">{prop}</Link>
             </div>
         </div>
     )
 }
 
-/*<HeaderButton name='HOME'></HeaderButton>
-                <HeaderButton name='SPIELPLAN'></HeaderButton>
-                <HeaderButton name='TABELLE'></HeaderButton>
-                <HeaderButton name='CLUBS'></HeaderButton>
-                <HeaderButton name='SPIELER'></HeaderButton>
-                <HeaderButton name='FAQ'></HeaderButton>*/
