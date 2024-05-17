@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const db = require("./")
 
 
 const app = express();
@@ -20,11 +21,12 @@ app.get("/people/:id", (req, res) => {
 
 app.delete("/people/:id", (req, res) => {
     let id = req.params.id;
-    data.slice(id, 1)
+    data.splice(id, 1)
     res.send("done")
 })
 
 app.post("/people", (req, res) => {
+    res.send("thanks")
     data.push(req.body);
     res.send(req.body);
 })
