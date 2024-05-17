@@ -1,3 +1,4 @@
+
 // Create an async pool object with promisified methods
 const mysql = require("mysql2/promise");
 const dotenv = require("dotenv");
